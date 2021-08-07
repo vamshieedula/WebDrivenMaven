@@ -26,7 +26,7 @@ public class LoginTest {
 			
 			driver.get("http://gmail.com");
 			driver.findElement(By.id("identifierId")).sendKeys("vamshi1608@gmail.com");
-			driver.findElement(By.xpath("//*[@id=\"identifierNext\"]/div/button/span")).click();
+			driver.findElement(By.xpath("//*[@id=\"identifierNext\"]/div/buon/span")).click();
 		/*
 		 * adding new commits
 		 * 
